@@ -4,6 +4,7 @@ import com.Filter.MyFilter;
 import com.componentScan.MyService;
 import com.importBeanDefinitionRegistrar.MyImportBeanDefinitionRegistrar;
 import com.importSelector.*;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.*;
 import org.springframework.stereotype.Controller;
 
