@@ -1,0 +1,286 @@
+2019-05-15 10:13:00.814  INFO 11704 --- [main] c.a.d.d.a.AnnotationDevelopApplication   : Starting AnnotationDevelopApplication on baohuajie with PID 11704 (E:\git\annotationDevelop\annotationDevelop\target\classes started by baohuajie in E:\git\annotationDevelop\annotationDevelop)
+2019-05-15 10:13:00.816  INFO 11704 --- [main] c.a.d.d.a.AnnotationDevelopApplication   : No active profile set, falling back to default profiles: default
+2019-05-15 10:13:01.544  INFO 11704 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-05-15 10:13:01.561  INFO 11704 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-15 10:13:01.561  INFO 11704 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-15 10:13:01.567  INFO 11704 --- [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-05-15 10:13:01.567  INFO 11704 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2019-05-15 10:13:01.567  INFO 11704 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-05-15 10:13:01.568  INFO 11704 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-05-15 10:13:02.604  INFO 11704 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2019-05-15 10:13:02.687  INFO 11704 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-15 10:13:02.687  INFO 11704 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1842 ms
+2019-05-15 10:13:02.840  INFO 11704 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-15 10:13:02.970  INFO 11704 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-15 10:13:02.973  INFO 11704 --- [main] c.a.d.d.a.AnnotationDevelopApplication   : Started AnnotationDevelopApplication in 2.569 seconds (JVM running for 3.039)
+2019-05-15 10:13:02.974  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : ========================输出IOC容器中的bean开始========================
+2019-05-15 10:13:02.974  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+2019-05-15 10:13:02.974  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+2019-05-15 10:13:02.974  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.context.annotation.internalCommonAnnotationProcessor
+2019-05-15 10:13:02.974  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.context.event.internalEventListenerProcessor
+2019-05-15 10:13:02.974  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.context.event.internalEventListenerFactory
+2019-05-15 10:13:02.974  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : annotationDevelopApplication
+2019-05-15 10:13:02.974  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2019-05-15 10:13:02.974  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.AutoConfigurationPackages
+2019-05-15 10:13:02.974  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration
+2019-05-15 10:13:02.974  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.condition.BeanTypeRegistry
+2019-05-15 10:13:02.974  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : propertySourcesPlaceholderConfigurer
+2019-05-15 10:13:02.974  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration
+2019-05-15 10:13:02.974  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : websocketServletWebServerCustomizer
+2019-05-15 10:13:02.974  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration
+2019-05-15 10:13:02.975  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat
+2019-05-15 10:13:02.975  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : tomcatServletWebServerFactory
+2019-05-15 10:13:02.975  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration
+2019-05-15 10:13:02.975  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : servletWebServerFactoryCustomizer
+2019-05-15 10:13:02.975  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : tomcatServletWebServerFactoryCustomizer
+2019-05-15 10:13:02.975  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : server-org.springframework.boot.autoconfigure.web.ServerProperties
+2019-05-15 10:13:02.975  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor
+2019-05-15 10:13:02.975  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata
+2019-05-15 10:13:02.975  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : webServerFactoryCustomizerBeanPostProcessor
+2019-05-15 10:13:02.975  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : errorPageRegistrarBeanPostProcessor
+2019-05-15 10:13:02.975  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration
+2019-05-15 10:13:02.975  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : dispatcherServlet
+2019-05-15 10:13:02.975  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : spring.http-org.springframework.boot.autoconfigure.http.HttpProperties
+2019-05-15 10:13:02.975  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties
+2019-05-15 10:13:02.976  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration
+2019-05-15 10:13:02.976  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : dispatcherServletRegistration
+2019-05-15 10:13:02.976  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration
+2019-05-15 10:13:02.976  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration
+2019-05-15 10:13:02.976  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : taskExecutorBuilder
+2019-05-15 10:13:02.976  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : applicationTaskExecutor
+2019-05-15 10:13:02.976  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties
+2019-05-15 10:13:02.976  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration
+2019-05-15 10:13:02.976  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : defaultValidator
+2019-05-15 10:13:02.976  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : methodValidationPostProcessor
+2019-05-15 10:13:02.976  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration
+2019-05-15 10:13:02.976  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : error
+2019-05-15 10:13:02.976  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : beanNameViewResolver
+2019-05-15 10:13:02.976  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration
+2019-05-15 10:13:02.976  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : conventionErrorViewResolver
+2019-05-15 10:13:02.976  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration
+2019-05-15 10:13:02.976  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : errorAttributes
+2019-05-15 10:13:02.977  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : basicErrorController
+2019-05-15 10:13:02.977  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : errorPageCustomizer
+2019-05-15 10:13:02.977  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : preserveErrorControllerTargetClassPostProcessor
+2019-05-15 10:13:02.977  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties
+2019-05-15 10:13:02.977  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter$FaviconConfiguration
+2019-05-15 10:13:02.977  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : faviconHandlerMapping
+2019-05-15 10:13:02.977  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : faviconRequestHandler
+2019-05-15 10:13:02.977  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration
+2019-05-15 10:13:02.977  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : requestMappingHandlerAdapter
+2019-05-15 10:13:02.977  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : requestMappingHandlerMapping
+2019-05-15 10:13:02.977  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : mvcConversionService
+2019-05-15 10:13:02.977  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : mvcValidator
+2019-05-15 10:13:02.977  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : mvcContentNegotiationManager
+2019-05-15 10:13:02.977  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : mvcPathMatcher
+2019-05-15 10:13:02.977  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : mvcUrlPathHelper
+2019-05-15 10:13:02.977  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : viewControllerHandlerMapping
+2019-05-15 10:13:02.977  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : beanNameHandlerMapping
+2019-05-15 10:13:02.977  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : resourceHandlerMapping
+2019-05-15 10:13:02.977  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : mvcResourceUrlProvider
+2019-05-15 10:13:02.977  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : defaultServletHandlerMapping
+2019-05-15 10:13:02.978  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : mvcUriComponentsContributor
+2019-05-15 10:13:02.978  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : httpRequestHandlerAdapter
+2019-05-15 10:13:02.978  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : simpleControllerHandlerAdapter
+2019-05-15 10:13:02.978  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : handlerExceptionResolver
+2019-05-15 10:13:02.978  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : mvcViewResolver
+2019-05-15 10:13:02.978  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : mvcHandlerMappingIntrospector
+2019-05-15 10:13:02.978  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter
+2019-05-15 10:13:02.978  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : defaultViewResolver
+2019-05-15 10:13:02.978  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : viewResolver
+2019-05-15 10:13:02.978  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : welcomePageHandlerMapping
+2019-05-15 10:13:02.978  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : requestContextFilter
+2019-05-15 10:13:02.978  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration
+2019-05-15 10:13:02.978  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : hiddenHttpMethodFilter
+2019-05-15 10:13:02.978  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : formContentFilter
+2019-05-15 10:13:02.978  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration
+2019-05-15 10:13:02.978  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : mbeanExporter
+2019-05-15 10:13:02.978  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : objectNamingStrategy
+2019-05-15 10:13:02.978  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : mbeanServer
+2019-05-15 10:13:02.978  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.admin.SpringApplicationAdminJmxAutoConfiguration
+2019-05-15 10:13:02.978  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : springApplicationAdminRegistrar
+2019-05-15 10:13:02.978  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration
+2019-05-15 10:13:02.979  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration
+2019-05-15 10:13:02.979  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : standardJacksonObjectMapperBuilderCustomizer
+2019-05-15 10:13:02.979  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties
+2019-05-15 10:13:02.979  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration
+2019-05-15 10:13:02.979  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : jacksonObjectMapperBuilder
+2019-05-15 10:13:02.979  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration
+2019-05-15 10:13:02.979  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : parameterNamesModule
+2019-05-15 10:13:02.979  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration
+2019-05-15 10:13:02.979  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : jacksonObjectMapper
+2019-05-15 10:13:02.979  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration
+2019-05-15 10:13:02.979  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : jsonComponentModule
+2019-05-15 10:13:02.979  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration
+2019-05-15 10:13:02.979  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : stringHttpMessageConverter
+2019-05-15 10:13:02.979  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration
+2019-05-15 10:13:02.979  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : mappingJackson2HttpMessageConverter
+2019-05-15 10:13:02.979  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration
+2019-05-15 10:13:02.979  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration
+2019-05-15 10:13:02.980  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : messageConverters
+2019-05-15 10:13:02.980  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration$LoggingCodecConfiguration
+2019-05-15 10:13:02.980  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : loggingCodecCustomizer
+2019-05-15 10:13:02.980  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration$JacksonCodecConfiguration
+2019-05-15 10:13:02.980  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : jacksonCodecCustomizer
+2019-05-15 10:13:02.980  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration
+2019-05-15 10:13:02.980  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration
+2019-05-15 10:13:02.980  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties
+2019-05-15 10:13:02.980  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration
+2019-05-15 10:13:02.980  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : taskSchedulerBuilder
+2019-05-15 10:13:02.980  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties
+2019-05-15 10:13:02.980  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration
+2019-05-15 10:13:02.980  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : restTemplateBuilder
+2019-05-15 10:13:02.980  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration
+2019-05-15 10:13:02.980  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : tomcatWebServerFactoryCustomizer
+2019-05-15 10:13:02.980  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration
+2019-05-15 10:13:02.980  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration
+2019-05-15 10:13:02.981  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : characterEncodingFilter
+2019-05-15 10:13:02.981  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : localeCharsetMappingsCustomizer
+2019-05-15 10:13:02.981  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration
+2019-05-15 10:13:02.981  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : multipartConfigElement
+2019-05-15 10:13:02.981  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : multipartResolver
+2019-05-15 10:13:02.981  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties
+2019-05-15 10:13:02.981  INFO 11704 --- [main] s.c.a.AnnotationConfigApplicationContext : ========================输出IOC容器中的bean结束========================
+2019-05-15 10:17:34.390  INFO 11524 --- [main] c.a.d.d.a.AnnotationDevelopApplication   : Starting AnnotationDevelopApplication on baohuajie with PID 11524 (E:\git\annotationDevelop\annotationDevelop\target\classes started by baohuajie in E:\git\annotationDevelop\annotationDevelop)
+2019-05-15 10:17:34.392  INFO 11524 --- [main] c.a.d.d.a.AnnotationDevelopApplication   : No active profile set, falling back to default profiles: default
+2019-05-15 10:17:35.197  INFO 11524 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-05-15 10:17:35.213  INFO 11524 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-15 10:17:35.214  INFO 11524 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-15 10:17:35.218  INFO 11524 --- [main] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.17] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.21]
+2019-05-15 10:17:35.219  INFO 11524 --- [main] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+2019-05-15 10:17:35.219  INFO 11524 --- [main] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2019-05-15 10:17:35.219  INFO 11524 --- [main] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2019-05-15 10:17:36.259  INFO 11524 --- [main] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+2019-05-15 10:17:36.321  INFO 11524 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-15 10:17:36.321  INFO 11524 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1904 ms
+2019-05-15 10:17:36.464  INFO 11524 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-15 10:17:36.592  INFO 11524 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-15 10:17:36.595  INFO 11524 --- [main] c.a.d.d.a.AnnotationDevelopApplication   : Started AnnotationDevelopApplication in 2.459 seconds (JVM running for 2.936)
+2019-05-15 10:17:36.596  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : ========================输出IOC容器中的bean开始========================
+2019-05-15 10:17:36.597  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.context.annotation.internalConfigurationAnnotationProcessor
+2019-05-15 10:17:36.597  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.context.annotation.internalAutowiredAnnotationProcessor
+2019-05-15 10:17:36.597  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.context.annotation.internalCommonAnnotationProcessor
+2019-05-15 10:17:36.597  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.context.event.internalEventListenerProcessor
+2019-05-15 10:17:36.597  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.context.event.internalEventListenerFactory
+2019-05-15 10:17:36.597  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : annotationDevelopApplication
+2019-05-15 10:17:36.597  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.internalCachingMetadataReaderFactory
+2019-05-15 10:17:36.597  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.AutoConfigurationPackages
+2019-05-15 10:17:36.597  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration
+2019-05-15 10:17:36.597  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.condition.BeanTypeRegistry
+2019-05-15 10:17:36.597  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : propertySourcesPlaceholderConfigurer
+2019-05-15 10:17:36.597  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration$TomcatWebSocketConfiguration
+2019-05-15 10:17:36.597  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : websocketServletWebServerCustomizer
+2019-05-15 10:17:36.597  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.websocket.servlet.WebSocketServletAutoConfiguration
+2019-05-15 10:17:36.597  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat
+2019-05-15 10:17:36.597  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : tomcatServletWebServerFactory
+2019-05-15 10:17:36.597  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryAutoConfiguration
+2019-05-15 10:17:36.598  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : servletWebServerFactoryCustomizer
+2019-05-15 10:17:36.598  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : tomcatServletWebServerFactoryCustomizer
+2019-05-15 10:17:36.598  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : server-org.springframework.boot.autoconfigure.web.ServerProperties
+2019-05-15 10:17:36.598  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.context.properties.ConfigurationPropertiesBindingPostProcessor
+2019-05-15 10:17:36.598  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.context.properties.ConfigurationBeanFactoryMetadata
+2019-05-15 10:17:36.598  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : webServerFactoryCustomizerBeanPostProcessor
+2019-05-15 10:17:36.598  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : errorPageRegistrarBeanPostProcessor
+2019-05-15 10:17:36.598  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletConfiguration
+2019-05-15 10:17:36.598  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : dispatcherServlet
+2019-05-15 10:17:36.598  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : spring.http-org.springframework.boot.autoconfigure.http.HttpProperties
+2019-05-15 10:17:36.598  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : spring.mvc-org.springframework.boot.autoconfigure.web.servlet.WebMvcProperties
+2019-05-15 10:17:36.598  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration$DispatcherServletRegistrationConfiguration
+2019-05-15 10:17:36.598  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : dispatcherServletRegistration
+2019-05-15 10:17:36.598  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration
+2019-05-15 10:17:36.598  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.task.TaskExecutionAutoConfiguration
+2019-05-15 10:17:36.599  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : taskExecutorBuilder
+2019-05-15 10:17:36.599  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : applicationTaskExecutor
+2019-05-15 10:17:36.599  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : spring.task.execution-org.springframework.boot.autoconfigure.task.TaskExecutionProperties
+2019-05-15 10:17:36.599  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.validation.ValidationAutoConfiguration
+2019-05-15 10:17:36.599  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : defaultValidator
+2019-05-15 10:17:36.599  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : methodValidationPostProcessor
+2019-05-15 10:17:36.599  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration
+2019-05-15 10:17:36.599  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : error
+2019-05-15 10:17:36.599  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : beanNameViewResolver
+2019-05-15 10:17:36.599  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration$DefaultErrorViewResolverConfiguration
+2019-05-15 10:17:36.599  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : conventionErrorViewResolver
+2019-05-15 10:17:36.599  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration
+2019-05-15 10:17:36.599  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : errorAttributes
+2019-05-15 10:17:36.599  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : basicErrorController
+2019-05-15 10:17:36.599  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : errorPageCustomizer
+2019-05-15 10:17:36.599  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : preserveErrorControllerTargetClassPostProcessor
+2019-05-15 10:17:36.599  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : spring.resources-org.springframework.boot.autoconfigure.web.ResourceProperties
+2019-05-15 10:17:36.600  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter$FaviconConfiguration
+2019-05-15 10:17:36.600  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : faviconHandlerMapping
+2019-05-15 10:17:36.600  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : faviconRequestHandler
+2019-05-15 10:17:36.600  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$EnableWebMvcConfiguration
+2019-05-15 10:17:36.600  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : requestMappingHandlerAdapter
+2019-05-15 10:17:36.600  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : requestMappingHandlerMapping
+2019-05-15 10:17:36.600  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : mvcConversionService
+2019-05-15 10:17:36.600  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : mvcValidator
+2019-05-15 10:17:36.600  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : mvcContentNegotiationManager
+2019-05-15 10:17:36.600  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : mvcPathMatcher
+2019-05-15 10:17:36.600  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : mvcUrlPathHelper
+2019-05-15 10:17:36.600  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : viewControllerHandlerMapping
+2019-05-15 10:17:36.600  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : beanNameHandlerMapping
+2019-05-15 10:17:36.600  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : resourceHandlerMapping
+2019-05-15 10:17:36.600  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : mvcResourceUrlProvider
+2019-05-15 10:17:36.600  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : defaultServletHandlerMapping
+2019-05-15 10:17:36.600  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : mvcUriComponentsContributor
+2019-05-15 10:17:36.600  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : httpRequestHandlerAdapter
+2019-05-15 10:17:36.600  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : simpleControllerHandlerAdapter
+2019-05-15 10:17:36.600  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : handlerExceptionResolver
+2019-05-15 10:17:36.600  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : mvcViewResolver
+2019-05-15 10:17:36.601  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : mvcHandlerMappingIntrospector
+2019-05-15 10:17:36.601  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter
+2019-05-15 10:17:36.601  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : defaultViewResolver
+2019-05-15 10:17:36.601  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : viewResolver
+2019-05-15 10:17:36.601  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : welcomePageHandlerMapping
+2019-05-15 10:17:36.601  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : requestContextFilter
+2019-05-15 10:17:36.601  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.web.servlet.WebMvcAutoConfiguration
+2019-05-15 10:17:36.601  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : hiddenHttpMethodFilter
+2019-05-15 10:17:36.601  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : formContentFilter
+2019-05-15 10:17:36.601  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.jmx.JmxAutoConfiguration
+2019-05-15 10:17:36.601  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : mbeanExporter
+2019-05-15 10:17:36.601  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : objectNamingStrategy
+2019-05-15 10:17:36.601  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : mbeanServer
+2019-05-15 10:17:36.601  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.admin.SpringApplicationAdminJmxAutoConfiguration
+2019-05-15 10:17:36.601  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : springApplicationAdminRegistrar
+2019-05-15 10:17:36.601  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.context.ConfigurationPropertiesAutoConfiguration
+2019-05-15 10:17:36.601  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration
+2019-05-15 10:17:36.601  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : standardJacksonObjectMapperBuilderCustomizer
+2019-05-15 10:17:36.601  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties
+2019-05-15 10:17:36.602  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration
+2019-05-15 10:17:36.602  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : jacksonObjectMapperBuilder
+2019-05-15 10:17:36.602  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration
+2019-05-15 10:17:36.602  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : parameterNamesModule
+2019-05-15 10:17:36.602  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration
+2019-05-15 10:17:36.602  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : jacksonObjectMapper
+2019-05-15 10:17:36.602  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration
+2019-05-15 10:17:36.602  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : jsonComponentModule
+2019-05-15 10:17:36.602  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration
+2019-05-15 10:17:36.602  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : stringHttpMessageConverter
+2019-05-15 10:17:36.602  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration
+2019-05-15 10:17:36.602  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : mappingJackson2HttpMessageConverter
+2019-05-15 10:17:36.602  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration
+2019-05-15 10:17:36.602  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration
+2019-05-15 10:17:36.602  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : messageConverters
+2019-05-15 10:17:36.602  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration$LoggingCodecConfiguration
+2019-05-15 10:17:36.602  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : loggingCodecCustomizer
+2019-05-15 10:17:36.603  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration$JacksonCodecConfiguration
+2019-05-15 10:17:36.603  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : jacksonCodecCustomizer
+2019-05-15 10:17:36.603  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.http.codec.CodecsAutoConfiguration
+2019-05-15 10:17:36.603  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.info.ProjectInfoAutoConfiguration
+2019-05-15 10:17:36.603  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : spring.info-org.springframework.boot.autoconfigure.info.ProjectInfoProperties
+2019-05-15 10:17:36.603  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.task.TaskSchedulingAutoConfiguration
+2019-05-15 10:17:36.603  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : taskSchedulerBuilder
+2019-05-15 10:17:36.603  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : spring.task.scheduling-org.springframework.boot.autoconfigure.task.TaskSchedulingProperties
+2019-05-15 10:17:36.603  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.web.client.RestTemplateAutoConfiguration
+2019-05-15 10:17:36.603  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : restTemplateBuilder
+2019-05-15 10:17:36.603  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration$TomcatWebServerFactoryCustomizerConfiguration
+2019-05-15 10:17:36.603  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : tomcatWebServerFactoryCustomizer
+2019-05-15 10:17:36.603  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.web.embedded.EmbeddedWebServerFactoryCustomizerAutoConfiguration
+2019-05-15 10:17:36.603  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.web.servlet.HttpEncodingAutoConfiguration
+2019-05-15 10:17:36.603  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : characterEncodingFilter
+2019-05-15 10:17:36.603  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : localeCharsetMappingsCustomizer
+2019-05-15 10:17:36.603  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : org.springframework.boot.autoconfigure.web.servlet.MultipartAutoConfiguration
+2019-05-15 10:17:36.604  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : multipartConfigElement
+2019-05-15 10:17:36.604  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : multipartResolver
+2019-05-15 10:17:36.604  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : spring.servlet.multipart-org.springframework.boot.autoconfigure.web.servlet.MultipartProperties
+2019-05-15 10:17:36.604  INFO 11524 --- [main] s.c.a.AnnotationConfigApplicationContext : ========================输出IOC容器中的bean结束========================
